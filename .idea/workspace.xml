@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cdc998b-bc4e-4d30-a3cf-68bc09232053" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/alishahidi/sort/BubbleSort.java" afterDir="false" />
+    <list default="true" id="2cdc998b-bc4e-4d30-a3cf-68bc09232053" name="Changes" comment="add BubbleSort">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alishahidi/sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alishahidi/sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alishahidi/tools/Helpers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/alishahidi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alishahidi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/alishahidi/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/alishahidi/sort/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -62,8 +66,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690959745156</updated>
-      <workItem from="1690959746182" duration="1256000" />
+      <workItem from="1690959746182" duration="4511000" />
     </task>
+    <task id="LOCAL-00001" summary="add BubbleSort">
+      <option name="closed" value="true" />
+      <created>1690962675251</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690962675251</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,5 +84,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add BubbleSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="add BubbleSort" />
   </component>
 </project>
