@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cdc998b-bc4e-4d30-a3cf-68bc09232053" name="Changes" comment="update README file">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="2cdc998b-bc4e-4d30-a3cf-68bc09232053" name="Changes" comment="some changes in gradle build configs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +74,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -99,7 +96,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Gradle.da-sorts [build]">
     <configuration name="da-sorts [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -148,25 +145,13 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/build/libs/da-sorts-1.0-SNAPSHOT.jar" />
       <method v="2" />
     </configuration>
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="imageTag" value="alishahidi/da-sorts:latest" />
-          <option name="containerName" value="da-sorts" />
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Docker.Dockerfile" />
       <item itemvalue="Gradle.da-sorts [build]" />
       <item itemvalue="Gradle.da-sorts [jar]" />
       <item itemvalue="JAR Application.da-sorts-1.0-SNAPSHOT.jar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="JAR Application.da-sorts-1.0-SNAPSHOT.jar" />
         <item itemvalue="Gradle.da-sorts [jar]" />
         <item itemvalue="Gradle.da-sorts [build]" />
@@ -183,7 +168,7 @@
       <updated>1690959745156</updated>
       <workItem from="1690959746182" duration="5776000" />
       <workItem from="1691003906005" duration="598000" />
-      <workItem from="1691215378165" duration="6843000" />
+      <workItem from="1691215378165" duration="7397000" />
     </task>
     <task id="LOCAL-00001" summary="add BubbleSort">
       <option name="closed" value="true" />
@@ -241,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691223214958</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="some changes in gradle build configs">
+      <option name="closed" value="true" />
+      <created>1691224828290</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691224828290</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +249,7 @@
     <MESSAGE value="add MergeSort" />
     <MESSAGE value="add QuickSort" />
     <MESSAGE value="update README file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README file" />
+    <MESSAGE value="some changes in gradle build configs" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes in gradle build configs" />
   </component>
 </project>
