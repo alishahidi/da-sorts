@@ -1,9 +1,6 @@
 package org.alishahidi;
 
-import org.alishahidi.sort.BubbleSort;
-import org.alishahidi.sort.InsertionSort;
-import org.alishahidi.sort.MergeSort;
-import org.alishahidi.sort.SelectionSort;
+import org.alishahidi.sort.*;
 
 import java.util.Arrays;
 
@@ -13,7 +10,8 @@ public class Main {
 //        BubbleSort.sort(array, true);
 //        SelectionSort.sort(array, true);
 //        InsertionSort.sort(array, true);
-        MergeSort.sort(array, true);
+//        MergeSort.sort(array, true);
+        QuickSort.sort(array, true);
         System.out.println(Arrays.toString(array));
     }
 }
