@@ -25,6 +25,10 @@ Each sorting algorithm is implemented as a static method within its correspondin
 | Merge Sort        | O(n log n)                | O(n log n)                  | O(n log n)                | O(n)             | Yes         |
 | Quick Sort        | O(n log n)                | O(n log n)                  | O(n^2)                    | O(log n)         | No          |
 | Selection Sort    | O(n^2)                    | O(n^2)                      | O(n^2)                    | O(1)             | No          |
+| Radix Sort        | O(nk)                      | O(nk)                      | O(nk)                    | O(n + k)         | Yes         |
+| Counting Sort     | O(n + k)                  | O(n + k)                    | O(n + k)                  | O(k)             | Yes         |
+| Bucket Sort       | O(n^2)                    | O(n + k)                    | O(n^2)                    | O(n + k)         | Yes         |
+
 
 ### Definitions:
 
